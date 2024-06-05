@@ -128,7 +128,7 @@ data = pd.read_csv('fgv-bocas.csv', delimiter=';')
 data_EMT = pd.read_csv('emt.csv', delimiter=';')
 
 # Menú de navegación en la barra lateral
-pagina = st.sidebar.selectbox('Selecciona una página', ['Home','MetroValencia Schedule','Arrival notification by email','EMT Schedules', 
+pagina = st.sidebar.selectbox('Selecciona una página', ['Home','MetroValencia Schedule','EMT Schedules', 
                                                         'EMT Map','ValenBici'])
 
 if pagina == 'Home':
