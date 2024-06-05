@@ -1,0 +1,7 @@
+streamlit
+pandas 
+pydeck 
+requests
+datetime
+beautifulsoup4 
+yagmail
