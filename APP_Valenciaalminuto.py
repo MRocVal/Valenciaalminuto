@@ -134,7 +134,7 @@ pagina = st.sidebar.selectbox('Selecciona una página', ['Home','MetroValencia S
 if pagina == 'Home':
     
     st.image('1.jpg')
-    st.title("VALENCIA IN A MINUTE")
+    st.title("VALENCIA IN A MINUTE By Edu")
     
     # Sección para próximas llegadas y salidas
     st.markdown("""
